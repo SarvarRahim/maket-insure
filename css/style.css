@@ -1,38 +1,162 @@
-.head {
-    list-style: none;
+body {
+  line-height: 1.5;
+  background: #fff;
+  font-family: 'Karla', "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  justify-content: center;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: #837D88;
-}
-.nav-linka {
-    text-decoration: none;
-    color: black;
-}
-.site-hero {
-    background-color: #2D2641;
-}
-.text-hero {
-    color: #fff;
-}
-.link-nav {
-    text-decoration: none;
-    color: #fff;
+.site-header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.fouture-pag {
-    background-color: #2D2641;
-    color: #fff;
+.nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: -1px;
 }
+
+.nav a {
+  text-decoration: none;
+  color: #837D88;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: #2D2641;
+  color: #fff;
+}
+
+.img-pag {
+  width: 540px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  align-items: center
+}
+
+.hero-pag {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-text {
+  width: 540px;
+  line-height: 64px;
+  font-weight: 400;
+  font-size: 72px;
+  font-family: 'DM Serif Display', "Times New Roman", serif;
+}
+
+.views {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.featur-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.featur-list li {
+  width: 350px;
+}
+
+.features h3 {
+  font-size: 28px;
+  font-family: 'DM Serif Display', "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0px;
+}
+
+.asas {
+  font-size: 72px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  font-family: 'DM Serif Display', "Times New Roman", serif;
+  font-weight: 400;
+  width: 715px;
+  color: #fff;
+}
+
 .we-work {
-    text-decoration: none;
-    color: #fff;
+  background-color: #2D2641;
+  display: flex;
+  justify-content: space-around;
 }
-.footer-pag, h3{
-    color: #837D88;
+
+.views-chanel {
+  font-weight: 700px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.footer-pag, a {
-    list-style: none;
-    color: black;
+
+.footer-pag {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  width: 120px;
+}
+
+.social-med {
+  list-style: none;
+  display: flex;
+  width: 300px;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.footer-end h3{
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #837D88;
+}
+
+.footer-end ul{
+  list-style: none;
+}
+
+
+.footer-end a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: #2D2641;
 }
